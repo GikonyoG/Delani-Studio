@@ -1,19 +1,37 @@
-figure{
+figure {
   position: relative;
   text-align: center;
   color: white;
-
 }
 .text {
   position: absolute;
-  top: 50%;
+  top: 58%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.logo{
+.text h1{
+    font-size: 55px;
+}
+.text p{
+    font-size: 20px;
+}
+.logo {
   position: absolute;
-  top: 25%;
+  top: 36%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+.mouse {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width:768px) {
+    figure{
+        min-height: 50vh;
+    }
+    /* h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    } */
+}
