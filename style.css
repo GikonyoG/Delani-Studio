@@ -49,3 +49,27 @@ figure {
   transform: translate(-50%, -50%);
   /* justify-content: center; */
 }
+
+.figure-contact {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.contact-text{
+      position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+/* textarea{
+          position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50);
+  display: flex;
+  color: none;
+
+} */
+
+
