@@ -28,11 +28,24 @@ figure {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-@media (max-width:768px) {
+/* @media (max-width:768px) {
     figure{
         min-height: 50vh;
     }
     /* h1 {
         font-size: calc(1.525rem + 3.3vw);
     } */
+
+.figure-services{
+     position: relative;
+  /* text-align: center; */
+  color: white;
+}
+
+.services-text {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* justify-content: center; */
 }
