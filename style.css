@@ -92,6 +92,32 @@ figure {
 .hover-text:hover {
   opacity: 1;
 }
+.images{
+  position: relative;
+}
+.work-1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  opacity: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(20px);
+  color: white;
+
+  transition: 0.5s;
+  
+}
+.work-1:hover{
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 /* .design {
   position: relative;
