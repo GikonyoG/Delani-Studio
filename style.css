@@ -24,21 +24,16 @@ figure {
 }
 .mouse {
   position: absolute;
-  top: 93%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.5s;
+  
 }
 .mouse:hover{
   transform: scale(1.2);
 }
-/* @media (max-width:768px) {
-    figure{
-        min-height: 50vh;
-    }
-    /* h1 {
-        font-size: calc(1.525rem + 3.3vw);
-    } */
+
 
 .figure-services {
   position: relative;
@@ -129,38 +124,42 @@ figure {
   transform: translateY(0);
   transform: scale(1.5);
 }
-
-
-/* .design {
+.figure-contact{
   position: relative;
 }
-.design-text {
-  position: absolute;
-  top: 0;
-  left: 0;
+
+
+.details{
+    position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+input{
+ background-color: transparent;
+ border: 1px solid white;
+}
+
+::placeholder{
+  color: white;
+}
+
+
+#message{
+  background-color: transparent;
+  resize: none;
+  color: white;
+  border: 2px solid white;
+  margin-top: 30px;
+}
+
+.message{
   width: 100%;
-  height: 100%;
-  background: rgb(255, 255, 255);
-  opacity: 0;
-  transition: 0.5s;
+  height: 40vh;
+  margin-top: 30px;
 }
-.design-text:hover {
-  opacity: 1;
-}
-.development {
-  position: relative;
-}
-.development-text {
-  position: absolute;
+/* .message::placeholder{
+  position:absolute;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgb(255, 255, 255);
-  opacity: 0;
-  transition: 0.5s;
-}
-.development-text:hover {
-  opacity: 1;
-}
- */
+} */
+
