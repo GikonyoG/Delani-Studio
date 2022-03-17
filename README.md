@@ -16,7 +16,7 @@
 3. Using Javascript eventlistener to prompt a message when details are submitted
 
 <h1>Links</h1>
-Availabe links to the <a href="https://gikonyog.github.io/Delani-studio/">WEBSITE</a> and <a href="<a href="https://github.com/GikonyoG/Delani-studio/blob/master/LICENSE">WEBSITE</a>">LICENSE</a>
+Availabe links to the <a href="https://gikonyog.github.io/Delani-studio/">WEBSITE</a> and <a href="https://github.com/GikonyoG/Delani-studio/blob/master/LICENSE">LICENSE</a>
 
 
 
