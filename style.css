@@ -10,11 +10,11 @@ figure {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.text h1{
-    font-size: 55px;
+.text h1 {
+  font-size: 55px;
 }
-.text p{
-    font-size: 20px;
+.text p {
+  font-size: 20px;
 }
 .logo {
   position: absolute;
@@ -36,8 +36,8 @@ figure {
         font-size: calc(1.525rem + 3.3vw);
     } */
 
-.figure-services{
-     position: relative;
+.figure-services {
+  position: relative;
   /* text-align: center; */
   color: white;
 }
@@ -55,12 +55,26 @@ figure {
   text-align: center;
   color: white;
 }
-.contact-text{
-      position: absolute;
+.contact-text {
+  position: absolute;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
+}
+#icons {
+  padding: 0 0 0 0.3em;
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+}
+#icons {
+  position: relative;
+  padding-top: 50px;
+  text-align: center;
+}
+#icons li {
+  display: inline-block;
 }
 
 /* textarea{
@@ -72,5 +86,3 @@ figure {
   color: none;
 
 } */
-
-
