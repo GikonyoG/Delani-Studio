@@ -76,6 +76,12 @@ figure {
 #icons li {
   display: inline-block;
 }
+#icons li img:hover{
+  transform: scale(1.5);
+ 
+
+}
+
 .about{
   position: relative;
 }
